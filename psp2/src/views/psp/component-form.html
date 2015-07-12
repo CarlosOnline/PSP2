@@ -1,0 +1,16 @@
+<template>
+    <require from='./component'></require>
+    <require from='./../misc/converters'></require>
+    <div class="componentForm ${debugMode ? 'debug' : ''}">
+        <ul class="sortable" ref="elem">
+            <li class="cover-up" repeat.for="item of model.components" ref="elem">
+                <component model.bind="item" element.bind="elem" coverUp.bind="elem"></component>
+            </li>
+        </ul>
+        <div if.bind="debugMode">
+            <span>
+                <pre class="debug">comp-form: ${index} ${model | stringify}</pre>
+            </span>
+        </div>
+    </div>
+</template>

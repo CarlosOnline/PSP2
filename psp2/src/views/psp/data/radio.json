@@ -1,0 +1,292 @@
+[
+    {
+        "title": "Multiple Radios"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "multipleradios.html"
+        ,"hidden": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            , "selected": {
+                "label": "Selected"
+                ,"type": "input"
+                ,"value": "Option 2"
+            }
+            ,"radios": {
+                "label": "Radios"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option 1"
+                    ,"Option 2"
+                    ,"Option 3"
+                    ,"Option 4"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inline": {
+                "label": "Orientation"
+                ,"type": "select"
+                ,"value": ""
+                ,"options": [
+                    {
+                        "value": ""
+                        ,"label": "Vertical"
+                    }
+                    ,{
+                        "value": "inline"
+                        ,"label": "Horizontal"
+                    }
+                ]
+            }
+        }
+    }
+    ,{
+        "title": "Multiple Radios Inline"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "multipleradios.html"
+        ,"hidden": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            , "selected": {
+                "label": "Selected"
+                ,"type": "input"
+                ,"value": 1
+            }
+            ,"radios": {
+                "label": "Radios"
+                ,"type": "textarea-split"
+                ,"value": [
+                    1
+                    ,2
+                    ,3
+                    ,4
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inline": {
+                "label": "Orientation"
+                ,"type": "select"
+                ,"value": "inline"
+                ,"options": [
+                    {
+                        "value": ""
+                        ,"label": "Vertical"
+                    }
+                    ,{
+                        "value": "inline"
+                        ,"label": "Horizontal"
+                    }
+                ]
+            }
+        }
+    }
+
+    ,{
+        "title": "Checkbox(s)"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "multiplecheckboxes.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"checkboxes": {
+                "label": "Checkboxes"
+                ,"type": "side-by-side-text"
+                ,"descriptions": {
+                    "label": "Checkboxes(s)"
+                    ,"description": "Description(s)"
+                }
+                ,"value": [
+                    {
+                        "label": "Checkbox 1"
+                        ,"description": ""
+                    }
+                    ,{
+                        "label": "Checkbox 2"
+                        ,"description": ""
+                    }
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inline": {
+                "label": "Orientation"
+                ,"type": "select"
+                ,"value": ""
+                ,"options": [
+                    {
+                          "value": ""
+                          ,"label": "Vertical"
+                    }
+                    ,{
+                          "value": "inline"
+                          ,"label": "Horizontal"
+                    }
+                ]
+            }
+        }
+    }
+
+    ,{
+        "title": "Checkbox Descriptions"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "multiplecheckboxes.html"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"checkboxes": {
+                "label": "Checkboxes"
+                ,"type": "side-by-side-text"
+                ,"descriptions": {
+                    "label": "Checkboxes(s)"
+                    ,"description": "Description(s)"
+                }
+                ,"value": [
+                    {
+                        "label": "Checkbox 1"
+                        ,"description": "optional description"
+                    }
+                    ,{
+                        "label": "Checkbox 2"
+                        ,"description": "optional description"
+                    }
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inline": {
+                "label": "Orientation"
+                ,"type": "select"
+                ,"value": ""
+                ,"options": [
+                    {
+                        "value": ""
+                        ,"label": "Vertical"
+                    }
+                    ,{
+                        "value": "inline"
+                        ,"label": "Horizontal"
+                    }
+                ]
+            }
+        }
+    }
+
+    ,{
+        "title": "Inner Checkbox Descriptions"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "multiplecheckboxes.html"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Label"
+            }
+            ,"checkboxes": {
+                "label": "Checkboxes"
+                ,"type": "side-by-side-text"
+                ,"descriptions": {
+                    "label": "Checkboxes(s)"
+                    ,"description": "Description(s)"
+                }
+                ,"value": [
+                    {
+                        "label": "1"
+                        ,"description": "xyz"
+                    }
+                    ,{
+                        "label": "2"
+                        ,"description": "zyx"
+                    }
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inline": {
+                "label": "Orientation"
+                ,"type": "select"
+                ,"value": ""
+                ,"options": [
+                    {
+                        "value": ""
+                        ,"label": "Vertical"
+                    }
+                    ,{
+                        "value": "inline"
+                        ,"label": "Horizontal"
+                    }
+                ]
+            }
+        }
+    }
+
+]

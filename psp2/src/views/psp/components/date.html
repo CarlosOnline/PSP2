@@ -1,0 +1,26 @@
+﻿<!-- Text input component -->
+<template>
+    <div class="control-component">
+        <p>
+            <span class="control-label" data-bind="text: fields.label.value, style: { display: fields.label.value ? 'inline' : 'none' }" />
+
+            <input type="text" data-provide="datepicker" data-date-format="mm/dd/yyyy"
+                   data-bind="
+    attr: {
+        id: fields.column.value
+        , name: fields.column.value
+        , placeholder: fields.placeholder.value
+        , title: fields.placeholder.value
+        , required: fields.required.value
+    }
+    , css: fields.inputsize.value
+    , css: fields.color.value
+    , style: {
+        color: fields.color.value
+    }
+    " />
+        </p>
+
+    </div>
+</template>
+

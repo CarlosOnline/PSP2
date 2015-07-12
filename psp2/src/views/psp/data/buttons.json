@@ -1,0 +1,233 @@
+[
+    {
+        "title": "File Button"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "filebutton.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "filebutton"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "File Button"
+            }
+        }
+    }
+    ,{
+        "title": "Single Button"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "button.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "singlebutton"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Single Button"
+                ,"hidden": true
+            }
+            ,"buttonlabel": {
+                "label": "Label"
+                ,"type": "input"
+                ,"value": "Button"
+            }
+            ,"float": {
+                "label": "Position"
+                ,"type": "select"
+                ,"value": "none"
+                ,"options": [
+                    {
+                        "value": "none"
+                        ,"label": "Default"
+                    }
+                    ,{
+                        "value": "left"
+                        ,"label": "Left"
+                    }
+                    ,{
+                        "value": "right"
+                        ,"label": "Right"
+                    }
+                ]
+            }
+            ,"buttontype": {
+                "label": "Button Style"
+                ,"type": "select"
+                ,"value": "btn-primary"
+                ,"options": [
+                    {
+                        "value": "btn-default"
+                        ,"label": "Default"
+                    }
+                    ,{
+                        "value": "btn-primary"
+                        ,"label": "Primary"
+                    }
+                    ,{
+                        "value": "btn-info"
+                        ,"label": "Info"
+                    }
+                    ,{
+                        "value": "btn-success"
+                        ,"label": "Success"
+                    }
+                    ,{
+                        "value": "btn-warning"
+                        ,"label": "Warning"
+                    }
+                    ,{
+                        "value": "btn-danger"
+                        ,"label": "Danger"
+                    }
+                    ,{
+                        "value": "btn-inverse"
+                        ,"label": "Inverse"
+                    }
+                ]
+            }
+        }
+    }
+    ,{
+        "title": "Double Button"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "buttondouble.html"
+        ,"hidden": "true"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Double Button"
+                ,"hidden": true
+            }
+            ,"float": {
+                "label": "Position"
+                ,"type": "select"
+                ,"value": "none"
+                ,"options": [
+                    {
+                        "value": "none"
+                        ,"label": "Default"
+                    }
+                    ,{
+                        "value": "left"
+                        ,"label": "Left"
+                    }
+                    ,{
+                        "value": "right"
+                        ,"label": "Right"
+                    }
+                ]
+            }
+            ,"buttons": [
+                {
+                    "id": {
+                        "label": "Button 1 ID / Name"
+                        ,"type": "input"
+                        ,"value": "doublebutton"
+                        ,"hidden": true
+                    }
+                    ,"label": {
+                        "label": "Button 1"
+                        ,"type": "input"
+                        ,"value": "Good Button"
+                    }
+                    ,"type": {
+                        "label": "Button Style"
+                        ,"type": "select"
+                        ,"value": "btn-success"
+                        ,"options": [
+                            {
+                                "value": "btn-default"
+                                ,"label": "Default"
+                            }
+                            ,{
+                                "value": "btn-primary"
+                                ,"label": "Primary"
+                            }
+                            ,{
+                                "value": "btn-info"
+                                ,"label": "Info"
+                            }
+                            ,{
+                                "value": "btn-success"
+                                ,"label": "Success"
+                            }
+                            ,{
+                                "value": "btn-warning"
+                                ,"label": "Warning"
+                            }
+                            ,{
+                                "value": "btn-danger"
+                                ,"label": "Danger"
+                            }
+                            ,{
+                                "value": "btn-inverse"
+                                ,"label": "Inverse"
+                            }
+                        ]
+                    }
+                }
+                ,{
+                    "id": {
+                        "label": "Button 2 ID / Name"
+                        ,"type": "input"
+                        ,"value": "doublebutton"
+                        ,"hidden": true
+                    }
+                    ,"label": {
+                        "label": "Button 2"
+                        ,"type": "input"
+                        ,"value": "Scary Button"
+                    }
+                    ,"type": {
+                        "label": "Button Style"
+                        ,"type": "select"
+                        ,"value": "btn-danger"
+                        ,"options": [
+                            {
+                                "value": "btn-default"
+                                ,"label": "Default"
+                            }
+                            ,{
+                                "value": "btn-primary"
+                                ,"label": "Primary"
+                            }
+                            ,{
+                                "value": "btn-info"
+                                ,"label": "Info"
+                            }
+                            ,{
+                                "value": "btn-success"
+                                ,"label": "Success"
+                            }
+                            ,{
+                                "value": "btn-warning"
+                                ,"label": "Warning"
+                            }
+                            ,{
+                                "value": "btn-danger"
+                                ,"label": "Danger"
+                            }
+                            ,{
+                                "value": "btn-inverse"
+                                ,"label": "Inverse"
+                            }
+                        ]
+                    }
+                }
+
+            ]
+        }
+    }
+]

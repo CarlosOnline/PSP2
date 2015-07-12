@@ -1,0 +1,19 @@
+<template>
+    <div class="control-component">
+        <div>
+            <p>
+                <input type="text" 
+                    id.bind="fields.column.value" 
+                    name.bind="fields.column.value" 
+                    value.bind="fields.value.value" 
+                    placeholder.bind="fields.placeholder.value"
+                    title.bind="fields.placeholder.value"
+                    required.bind="fields.required.value"
+                    css="${fields.inputsize.value + ' ' + fields.color.value}; 
+                    color:${fields.color.value}"
+                    />
+            </p>
+        </div>
+    
+    </div>
+</template>

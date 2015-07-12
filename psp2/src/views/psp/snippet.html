@@ -1,0 +1,26 @@
+<template>
+    <require from='./component-form'></require>
+    <require from='./header'></require>
+    <require from='./../misc/converters'></require>
+    <!-- todo horizontalness for forms -->
+    <div class="snippet-row ${debugMode ? 'debug' : ''}">
+        <div class="cover-up snippet ${debugMode ? 'debug' : ''}" ref="elem">
+            <header model.bind="model" coverUp.bind="elem"></header>
+        </div>
+        <div class="snippet-forms ${debugMode ? 'debug' : ''}">
+            <ul>
+                <li ref="elem">
+                    <template repeat.for="item of model.fields.forms">
+                        <component-form model.bind="item" element.bind="elem"></component-form>
+                    </template>
+                </li>
+            </ul>
+            <div if.bind="debugMode">
+                <span>
+                    <pre class="debug">snippet: ${index} ${model | stringify}</pre>
+                </span>
+            </div>
+        </div>
+    </div>
+    <br style="clear: both;" />
+</template>

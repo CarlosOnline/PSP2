@@ -1,0 +1,11 @@
+<template>
+  <require from='./nav-bar'></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host">
+    <input type="checkbox" value="Debug" checked.bind="debugMode" /> Debug Mode
+    <h1 id="abc">ABC</h1>
+    <router-view></router-view>
+  </div>
+</template>

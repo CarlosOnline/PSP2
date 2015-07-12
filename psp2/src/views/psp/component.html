@@ -1,0 +1,12 @@
+<template>
+  <require from='./../misc/converters'></require>
+  <div class="component ${debugMode ? 'debug' : ''}">
+    <Compose view="/views/psp/components/${model.url}"></Compose>
+
+    <div if.bind="debugMode">
+      <span>
+        <pre class="debug">comp: ${index} ${model | stringify}</pre>
+      </span>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,24 @@
+﻿<template>
+    <require from='./snippet'></require>
+    <require from='./component'></require>
+    <require from='./../misc/converters'></require>
+
+    <ul id="sortable">
+        <li>
+            <ul id="sortable">
+                <li repeat.for="item of model.tabs" ref="elem">
+                    <pre class="debug">tab-item: ${item.title} ${item.url} ${item.reference} ${item.type}</pre> <!--${item | stringify} -->
+                    <template if.bind="item.type == 'component'">
+                        <div class="cover-up" ref="coverUp" />
+                        <div class="snippet">&nbsp;</div>
+                        <component model.bind="item" parent.bind="parent" element.bind="elem" coverUp.bind="coverUp"></component>
+                    </template>
+                    <template if.bind="item.type != 'component'">
+                        <div class="cover-up" ref="coverUp" />
+                        <snippet model.bind="item" parent.bind="parent" element.bind="elem" coverUp.bind="coverUp"></snippet>
+                    </template>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</template>

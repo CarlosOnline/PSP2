@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Select Basic"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "selectbasic.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Select Option"
+            }
+            ,"options": {
+                "label": "Options"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option one"
+                    ,"Option two"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Select Basic"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "selectbasic.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Label"
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Select Option"
+            }
+            ,"options": {
+                "label": "Options"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option one"
+                    ,"Option two"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Select Multiple"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "selectmultiple.html"
+        ,"hidden": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"options": {
+                "label": "Options"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option one"
+                    ,"Option two"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Select Multiple"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "selectmultiple.html"
+        ,"hidden": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Label"
+                ,"hidden": true
+            }
+            ,"options": {
+                "label": "Options"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option one"
+                    ,"Option two"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+]

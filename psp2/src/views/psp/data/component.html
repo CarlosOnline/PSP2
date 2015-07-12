@@ -1,0 +1,11 @@
+<template>
+    <h6 show.bind="debugMode">Comp ${model.reference} ${model.title} ${model.url}</h6>
+    <div class="component">
+        <Compose view="components/${model.url}"></Compose>
+        <div show.bind="debugMode">
+            <span>
+                <pre class="debug">component ${index} ${model | stringify}</pre>
+            </span>
+        </div>
+    </div>
+</template>

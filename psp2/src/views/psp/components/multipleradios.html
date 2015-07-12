@@ -1,0 +1,16 @@
+<!-- Multiple Radios -->
+<template>
+    <div class="control-component">
+        <p class="controls" data-bind="foreach: { data: fields.radios.value, as: 'item' }" style="padding: 0; margin: 0">
+            <!-- use as: to get value from radios.value -->
+            <input style="padding: 0; margin: 0" type="radio" data-bind="checked: $parent.fields.selected.value, value: item
+    , attr: {
+        id: $parent.fields.column.value + '_' + $index()
+        , name: $parent.fields.column.value + '_' + $index()
+        , required: $parent.fields.required.value
+    }" />
+            <span style="padding: 0; margin: 0" class="name" data-bind="text: item" />
+            <span data-bind="if: $parent.fields.inline.value == ''"><br /></span>
+        </p>
+    </div>
+</template>

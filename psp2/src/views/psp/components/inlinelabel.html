@@ -1,0 +1,8 @@
+﻿<!-- inline label -->
+<template>
+    <div class="controls" data-bind="foreach: { data: fields.inlinelabel.value, as: 'item' }">
+        <div>
+            <span data-bind="text: item, style: { color: $parent.fields.color.value }, css: $parent.fields.color.value" />
+        </div>
+    </div>
+</template>

@@ -1,0 +1,215 @@
+﻿[
+    {
+        "title": "Section"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"url": "section.html"
+        ,"fields": {
+            "label": {
+                "label": "Section Text"
+                ,"type": "input"
+                ,"value": "Section Title"
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": "#428bca"
+            }
+        }
+    }
+
+    ,{
+        "title": "Section"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"url": "section.html"
+        ,"fields": {
+            "label": {
+                "label": "Section Text"
+                ,"type": "input"
+                ,"value": "Section Title"
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": "#5bc0de"
+            }
+        }
+    }
+
+    ,{
+        "title": "Section"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"url": "section.html"
+        ,"fields": {
+            "label": {
+                "label": "Section Text"
+                ,"type": "input"
+                ,"value": "Section Title"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": "#f0ad4e"
+            }
+        }
+    }
+
+    ,{
+        "title": "Label"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"url": "label.html"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Label Line 1"
+                    ,"Label Line 2"
+                ]
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "red"
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Label"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"url": "inlinelabel.html"
+        ,"fields": {
+            "label": {
+                "label": "Inline Label Text"
+                ,"type": "input"
+                ,"value": "Inline Label Text"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"inlinelabel": {
+                "label": "Label Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Label Line 1"
+                    ,"Label Line 2"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "blue"
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Label Only"
+        ,"type": "snippet-custom"
+        ,"version": "1"
+        ,"type": "snippet-custom"
+        ,"url": "inlinelabel.html"
+        ,"fields": {
+            "label": {
+                "label": "Inline Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"inlinelabel": {
+                "label": "Label Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Label Line 1"
+                    ,"Label Line 2"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "orange"
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+        }
+    }
+
+    ,{
+        "title": "Form Name"
+        ,"version": "2"
+        ,"url": "legend.html"
+        ,"type": "snippet-custom"
+        ,"fields": {
+            "label": {
+               "label": "Form Name"
+               ,"type": "input"
+               ,"value": "PSP Form"
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+        }
+    }
+
+
+]

@@ -1,0 +1,32 @@
+<template>
+    <!--Multiple Checkboxes-->
+    <div class="control-component">
+        <template repeat.for="item of model.fields.checkboxes.value">
+            <input type="checkbox"
+                id.bind="item.label" 
+                name.bind="item.label" 
+                title.bind="item.label"
+                value.bind="item.label"
+                required.bind="$parent.fields.required.value"
+                css="${$parent.fields.inputsize.value + ' ' + $parent.fields.color.value}; 
+                color:${$parent.fields.color.value}"/>
+
+            <span class="name"
+                css="${$parent.fields.inputsize.value + ' ' + $parent.fields.color.value}; 
+            color:${$parent.fields.color.value}">${item.label}</span>
+        </template>
+        
+        <template if item.description>
+            <span class="name"
+                css="${$parent.fields.inputsize.value + ' ' + $parent.fields.color.value}; 
+            color:${$parent.fields.color.value}">${item.description}</span>
+        </template>
+
+        <!--
+        <span data-bind="if: $parent.fields.inline.value == ''">
+            <br />
+        </span>
+        -->
+    </p>
+    </div>
+</template>

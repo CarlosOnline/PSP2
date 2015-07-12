@@ -1,0 +1,19 @@
+<!-- Select Multiple -->
+<template>
+    <div class="control-component">
+        <p>
+            <span class="control-label" data-bind="text: fields.label.value, style: { display: fields.label.value ? 'inline' : 'none' }" />
+
+            <div class="controls">
+                <select multiple="multiple" data-bind="
+    attr: {
+        id: fields.column.value
+        , name: fields.column.value
+    }
+    , options: fields.options.value
+    , css: fields.inputsize.value
+    " />
+            </div>
+        </p>
+    </div>
+</template>

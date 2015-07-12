@@ -1,0 +1,212 @@
+﻿[
+    {
+        "title": "Text Input Row"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    ""
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    ,{
+        "title": "Text Input Row With Description"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background Color"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    ,{
+        "title": "Empty Row"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Empty Row"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background Color"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "snippets.json"
+                            ,"title": "Null"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    ,{
+        "title": "Dual Form Snippet"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "2 Column Row"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "text.json"
+                            ,"title": "Plain Text"
+                            ,"hidden": false
+                        }
+                        ,{
+                            "reference": "text.json"
+                            ,"title": "Plain Text"
+                            ,"hidden": false
+                        }
+                        ,{
+                            "reference": "text.json"
+                            ,"title": "Full Text"
+                            ,"hidden": false
+                        }
+                    ]
+                }
+                ,{
+                    "components": [
+                        {
+                            "reference": "radio.json"
+                            ,"title": "Checkbox(s)"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    ,{
+        "title": "Null"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "null.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    ""
+                ]
+                ,"hidden": true
+            }
+        }
+    }
+
+]

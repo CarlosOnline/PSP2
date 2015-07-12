@@ -1,0 +1,10 @@
+﻿<template>
+    <!-- attr: { id: fields.background.value } is a hack to tell if background has been set for the snippet -->
+    <div class="control-label control-label-header" css="${fields.background.value + ' ' + fields.color.value}; 
+        background:${fields.background.value}">
+        <p>
+            <span css="${fields.color.value}; 
+        color:${fields.color.value}">${fields.label.value}</span>
+        </p>
+    </div>
+</template>

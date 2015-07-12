@@ -1,0 +1,540 @@
+﻿[
+    {
+        "title": "Text Input"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "textinput.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "textinput"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Text Input"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "textinput.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "textinput"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Password Input"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "passwordinput.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "passwordinput"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Password Input"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Password Input ***"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Search Input"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "searchinput.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "searchinput"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Search Input"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Search Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Prepended Text"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "prependedtext.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "prependedtext"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Prepended Text"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"prepend": {
+                "label": "Prepend"
+                ,"type": "input"
+                ,"value": "prepend"
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Prepended text"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Appended Text"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "appendedtext.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "appendedtext"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Appended Text"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"append": {
+                "label": "Append"
+                ,"type": "input"
+                ,"value": "append"
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Appended Text"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Prepended Checkbox"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "prependedcheckbox.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "prependedcheckbox"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Prepended Checkbox"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Prepended Checkbox"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"checked": {
+                "label": "Checked"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Appended Checkbox"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "appendedcheckbox.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "appendedcheckbox"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Appended Checkbox"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Appended Checkbox"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"checked": {
+                "label": "Checked"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Button Drop Down"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "buttondropdown.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "buttondropdown"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Button Drop Down"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Button Drop Down"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"buttontext": {
+                "label": "Button Text"
+                ,"type": "input"
+                ,"value": "Action"
+            }
+            ,"buttonoptions": {
+                "label": "Options"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "Option one"
+                    ,"Option two"
+                    ,"Option three"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-xlarge"
+            }
+        }
+    }
+
+    ,{
+        "title": "Text Area"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "textarea.html"
+        ,"fields": {
+            "id": {
+                "label": "ID / Name"
+                ,"type": "input"
+                ,"value": "textarea"
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Area"
+                ,"hidden": true
+            }
+            ,"description": {
+                "label": "Description"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "description (optional)"
+                ]
+                ,"hidden": true
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"textarea": {
+                "label": "Starting Text"
+                ,"type": "textarea"
+                ,"value": "default text"
+            }
+        }
+    }
+
+    ,{
+        "reference": "datetime.json"
+        ,"title": "Date Time"
+    }
+
+]

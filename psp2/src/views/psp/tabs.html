@@ -1,0 +1,31 @@
+﻿<template>
+    <require from='./snippet'></require>
+    <require from='./component'></require>
+    <require from='./tab-item'></require>
+    <require from='./../misc/converters'></require>
+
+    <pre class="debug hidden">Tabs: ${model | stringify}</pre> <!--${item | stringify} -->
+
+    <div class="tabs ${debugMode ? 'debug' : ''}">
+        <ul class="nav nav-tabs" id="tabsHeader">
+            <template repeat.for="item of model">
+                <pre class="debug hidden">Tabs: ${item | stringifyShort}</pre> <!--${item | stringify} -->
+                <li class="${item.active ? 'active' : ''}"
+                    id.bind="'id-tab'+$index">
+                    <a href.bind="'#tab'+$index" 
+                       click.delegate="$parent.tabClick($event, $index)"
+                       data-toggle="tab">${ item.name }</a>
+                </li>
+            </template>
+        </ul>
+        <div class="tab-content">
+            <template repeat.for="item of model">
+                <pre class="debug hidden">Tabs: ${item | stringify}</pre> <!--${item | stringify} -->
+                <div class="tab-pane ${item.active ? 'active' : ''}" id.bind="'#tab'+$index" ref="elem">
+                    <tab-item model.bind="item" element.bind="elem"></tab-item>
+                </div>
+            </template>
+        </div>
+    </div>
+
+</template>

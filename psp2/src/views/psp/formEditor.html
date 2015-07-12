@@ -1,0 +1,17 @@
+<template>
+    <require from='./snippet-form'></require>
+    <require from='./tabs'></require>
+    <require from='./../misc/converters'></require>
+
+    <div class="formEditor ${debugMode ? 'debug' : ''}" ref="elem">
+        <snippet-form model.bind="target.model" element.bind="elem"></snippet-form>
+        <div if.bind="debugMode">
+            <span>
+                <pre class="debug">FormEditor-Target: length: ${target.model.length} ${target.model | stringify}</pre>
+            </span>
+        </div>
+    </div>
+
+    <h1>Tabs</h1>
+    <tabs tabs.bind="tabs.model" model.bind="tabs.model" element.bind="elem"></tabs>
+</template>

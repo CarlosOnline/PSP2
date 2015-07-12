@@ -1,0 +1,93 @@
+﻿[
+    {
+        "title": "Full Text"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "text.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": false
+            }
+            ,"text": {
+                "label": "Actual Text"
+                ,"type": "input"
+                ,"value": "Text"
+                ,"hidden": false
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+                ,"hidden": true
+            }
+        }
+    }
+
+    ,{
+        "title": "Plain Text"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "text.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": false
+            }
+            ,"text": {
+                "label": "Actual Text"
+                ,"type": "input"
+                ,"value": "Text"
+                ,"hidden": false
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    ""
+                ]
+                ,"hidden": true
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+                ,"hidden": true
+            }
+        }
+    }
+
+]

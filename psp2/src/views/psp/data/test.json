@@ -1,0 +1,144 @@
+﻿[
+    {
+        "title": "Text Input Row"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    ""
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+                ,{
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    ,{
+        "reference": "input.json"
+        ,"title": "Text Input"
+        ,"hidden": false
+    }
+
+    ,{
+        "title": "Text Input Row"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    ""
+                ]
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+                ,{
+                    "components": [
+                        {
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                        ,{
+                            "reference": "input.json"
+                            ,"title": "Text Input"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+
+    ,{
+        "reference": "snippets.json"
+        ,"title": "Dual Form Snippet"
+        ,"hidden": false
+    }
+]

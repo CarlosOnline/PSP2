@@ -1,0 +1,144 @@
+[
+    {
+        "title": "Text Input"
+        ,"type": "component"
+        ,"version": "2"
+        ,"url": "textinput.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "auto"
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Inline Text Input"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "textinput.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Text Input"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                    "help (optional)"
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "auto"
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "reference": "datetime.json"
+        ,"title": "Date"
+    }
+
+    ,{
+        "title": "Header"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"hidden": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden":  true
+            }
+            ,"label": {
+                "label": "Section Text"
+                ,"type": "input"
+                ,"value": "Section Text"
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": "auto"
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": "auto"
+            }
+        }
+    }
+
+    ,{
+        "reference": "text.json"
+        ,"title": "Plain Text"
+        ,"hidden": false
+    }
+
+    ,{
+        "reference": "text.json"
+        ,"title": "Full Text"
+        ,"hidden": false
+    }
+
+
+]

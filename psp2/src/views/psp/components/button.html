@@ -1,0 +1,13 @@
+<!-- Button -->
+<template>
+    <div class="controls">
+        <button type="submit" class='btn' data-bind="
+    style: {
+        float: fields.float.value
+    }
+    , css: fields.buttontype.value
+    ">
+            <span data-bind="text: fields.buttonlabel.value" />
+        </button>
+    </div>
+</template>

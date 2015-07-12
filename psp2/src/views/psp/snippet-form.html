@@ -1,0 +1,14 @@
+﻿<template>
+    <require from='./snippet'></require>
+    <require from='./component'></require>
+    <require from='./../misc/converters'></require>
+
+    <ul class="sortable">
+        <li repeat.for="item of model" ref="elem">
+            <div class="cover-up" ref="coverUp">
+                <pre class="debug">Item: ${item.title} ${item.url} ${item.reference} ${item.type}</pre> <!--${item | stringify} -->
+                <snippet model.bind="item" parent.bind="parent" element.bind="elem" coverUp.bind="coverUp"></snippet>
+            </div>
+        </li>
+    </ul>
+</template>

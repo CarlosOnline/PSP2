@@ -1,0 +1,8 @@
+﻿<!-- label -->
+<template>
+<div class="control-group">
+    <div data-bind="foreach: { data: fields.label.value, as: 'item' }">
+        <span data-bind="text: item, style: { color: $parent.fields.color.value }, css: $parent.fields.color.value"/>
+    </div>
+</div>
+</template>

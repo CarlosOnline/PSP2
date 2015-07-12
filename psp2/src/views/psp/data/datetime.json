@@ -1,0 +1,226 @@
+﻿[
+    {
+        "title": "Date"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "date.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"placeholder": {
+                "label": "Date Placeholder"
+                ,"type": "input"
+                ,"value": "Date"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                ]
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Date-Inline"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "date-inline.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Date Placeholder"
+                ,"type": "input"
+                ,"value": "Date"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                ]
+                ,"hidden": false
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Time"
+        ,"type": "component"
+        ,"version": "2"
+        ,"url": "textinput.html"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden": true
+            }
+            ,"placeholder": {
+                "label": "Placeholder"
+                ,"type": "input"
+                ,"value": "Time"
+            }
+            ,"helptext": {
+                "label": "Help Text"
+                ,"type": "textarea-split"
+                ,"value": [
+                ]
+                ,"hidden": true
+            }
+            ,"required": {
+                "label": "Required"
+                ,"type": "checkbox"
+                ,"value": false
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"inputsize": {
+                "label": "Input Size"
+                ,"type": "select-input-size"
+                ,"value": "input-medium"
+            }
+        }
+    }
+
+    ,{
+        "title": "Time Header"
+        ,"type": "component"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"noColumn": true
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+                ,"hidden":  true
+            }
+            ,"label": {
+                "label": "Section Text"
+                ,"type": "input"
+                ,"value": "Time"
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+        }
+    }
+
+    ,{
+        "title": "Date Time Snippet"
+        ,"version": "1"
+        ,"url": "header.html"
+        ,"type": "snippet-nested-forms"
+        ,"fields": {
+            "column": {
+                "label": "Column"
+                ,"type": "input"
+                ,"value": ""
+            }
+            ,"label": {
+                "label": "Label Text"
+                ,"type": "input"
+                ,"value": "Date Time"
+            }
+            ,"color": {
+                "label": "Text Color"
+                ,"type": "select-color"
+                ,"value": ""
+            }
+            ,"background": {
+                "label": "Background"
+                ,"type": "select-background"
+                ,"value": ""
+            }
+            ,"forms": [
+                {
+                    "components": [
+                        {
+                            "reference": "datetime.json"
+                            ,"title": "Date-Inline"
+                        }
+                    ]
+                }
+                ,{
+                    "components": [
+                        {
+                            "reference": "datetime.json"
+                            ,"title": "Time Header"
+                        }
+                    ]
+                }
+                ,{
+                    "components": [
+                        {
+                            "reference": "datetime.json"
+                            ,"title": "Time"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
