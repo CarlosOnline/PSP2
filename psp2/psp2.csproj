@@ -43,106 +43,96 @@
     <Content Include="index.html" />
     <Content Include="src\animation-main.js" />
     <Content Include="src\app.html" />
-    <Content Include="src\app.js" />
     <Content Include="src\child-router.html" />
     <Content Include="src\child-router.js" />
     <Content Include="src\flickr.html" />
     <Content Include="src\flickr.js" />
     <Content Include="src\nav-bar.html" />
     <Content Include="src\nav-bar.js" />
-    <Content Include="src\views\animation-main.js" />
-    <Content Include="src\views\app.html" />
-    <Content Include="src\views\nav-bar.html" />
-    <Content Include="src\views\psp\common\sortable.js" />
-    <Content Include="src\views\psp\common\utility.js" />
-    <Content Include="src\views\psp\component-form.html" />
-    <Content Include="src\views\psp\component-form.js" />
-    <Content Include="src\views\psp\component.html" />
-    <Content Include="src\views\psp\components\button.html" />
-    <Content Include="src\views\psp\components\components.html" />
-    <Content Include="src\views\psp\components\date-inline.html" />
-    <Content Include="src\views\psp\components\date.html" />
-    <Content Include="src\views\psp\components\filebutton.html" />
-    <Content Include="src\views\psp\components\header.html" />
-    <Content Include="src\views\psp\components\inlinelabel.html" />
-    <Content Include="src\views\psp\components\label.html" />
-    <Content Include="src\views\psp\components\legend.html" />
-    <Content Include="src\views\psp\components\multiplecheckboxes.html" />
-    <Content Include="src\views\psp\components\multipleradios.html" />
-    <Content Include="src\views\psp\components\null.html" />
-    <Content Include="src\views\psp\components\section.html" />
-    <Content Include="src\views\psp\components\selectbasic.html" />
-    <Content Include="src\views\psp\components\selectmultiple.html" />
-    <Content Include="src\views\psp\components\text.html" />
-    <Content Include="src\views\psp\components\textinput.html" />
-    <Content Include="src\views\psp\data\component.html" />
-    <Content Include="src\views\psp\formEditor.html" />
-    <Content Include="src\views\psp\header.html" />
-    <Content Include="src\views\psp\snippet-form.html" />
-    <Content Include="src\views\psp\snippet.html" />
-    <Content Include="src\views\psp\snippets\date.html" />
-    <Content Include="src\views\psp\snippets\header.html" />
-    <Content Include="src\views\psp\snippets\inlinelabel.html" />
-    <Content Include="src\views\psp\snippets\label.html" />
-    <Content Include="src\views\psp\snippets\legend.html" />
-    <Content Include="src\views\psp\snippets\null.html" />
-    <Content Include="src\views\psp\snippets\section.html" />
-    <Content Include="src\views\psp\snippets\test.html" />
-    <Content Include="src\views\psp\snippets\text.html" />
-    <Content Include="src\views\psp\snippets\textinput.html" />
-    <Content Include="src\views\psp\tab-item.html" />
-    <Content Include="src\views\psp\tabs.html" />
-    <Content Include="src\views\welcome.html" />
+    <Content Include="src\views\component-form.html" />
+    <Content Include="src\views\component-form.js" />
+    <Content Include="src\views\component.html" />
+    <Content Include="src\views\components\button.html" />
+    <Content Include="src\views\components\components.html" />
+    <Content Include="src\views\components\date-inline.html" />
+    <Content Include="src\views\components\date.html" />
+    <Content Include="src\views\components\filebutton.html" />
+    <Content Include="src\views\components\header.html" />
+    <Content Include="src\views\components\inlinelabel.html" />
+    <Content Include="src\views\components\label.html" />
+    <Content Include="src\views\components\legend.html" />
+    <Content Include="src\views\components\multiplecheckboxes.html" />
+    <Content Include="src\views\components\multipleradios.html" />
+    <Content Include="src\views\components\null.html" />
+    <Content Include="src\views\components\section.html" />
+    <Content Include="src\views\components\selectbasic.html" />
+    <Content Include="src\views\components\selectmultiple.html" />
+    <Content Include="src\views\components\text.html" />
+    <Content Include="src\views\components\textinput.html" />
+    <Content Include="src\views\data\component.html" />
+    <Content Include="src\views\formEditor.html" />
+    <Content Include="src\views\header.html" />
+    <Content Include="src\views\snippet-form.html" />
+    <Content Include="src\views\snippet.html" />
+    <Content Include="src\views\snippets\date.html" />
+    <Content Include="src\views\snippets\header.html" />
+    <Content Include="src\views\snippets\inlinelabel.html" />
+    <Content Include="src\views\snippets\label.html" />
+    <Content Include="src\views\snippets\legend.html" />
+    <Content Include="src\views\snippets\null.html" />
+    <Content Include="src\views\snippets\section.html" />
+    <Content Include="src\views\snippets\test.html" />
+    <Content Include="src\views\snippets\text.html" />
+    <Content Include="src\views\snippets\textinput.html" />
+    <Content Include="src\views\tab-item.html" />
+    <Content Include="src\views\tabs.html" />
     <Content Include="src\welcome.html" />
     <Content Include="styles\styles.css" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
-    <TypeScriptCompile Include="src\views\animation-main.ts" />
-    <TypeScriptCompile Include="src\views\app.ts" />
-    <TypeScriptCompile Include="src\views\main.ts" />
-    <TypeScriptCompile Include="src\views\misc\converters.ts" />
-    <TypeScriptCompile Include="src\views\misc\utility.ts" />
-    <TypeScriptCompile Include="src\views\nav-bar.ts" />
-    <TypeScriptCompile Include="src\views\psp\common\sortable.ts" />
-    <TypeScriptCompile Include="src\views\psp\common\utility.ts" />
-    <TypeScriptCompile Include="src\views\psp\component-form.ts" />
-    <TypeScriptCompile Include="src\views\psp\component.ts" />
-    <TypeScriptCompile Include="src\views\psp\formEditor.ts" />
-    <TypeScriptCompile Include="src\views\psp\formViewModel.ts" />
-    <TypeScriptCompile Include="src\views\psp\header.ts" />
-    <TypeScriptCompile Include="src\views\psp\itemViewModel.ts" />
-    <TypeScriptCompile Include="src\views\psp\snippet-form.ts" />
-    <TypeScriptCompile Include="src\views\psp\snippet.ts" />
-    <TypeScriptCompile Include="src\views\psp\tab-item.ts" />
-    <TypeScriptCompile Include="src\views\psp\tabs.ts" />
-    <TypeScriptCompile Include="src\views\references.ts" />
-    <TypeScriptCompile Include="src\views\welcome.ts" />
+    <TypeScriptCompile Include="src\app.ts" />
+    <TypeScriptCompile Include="src\misc\converters.ts" />
+    <TypeScriptCompile Include="src\misc\utility.ts" />
+    <TypeScriptCompile Include="src\views\common\sortable.ts" />
+    <TypeScriptCompile Include="src\views\common\utility.ts" />
+    <TypeScriptCompile Include="src\views\component-form.ts" />
+    <TypeScriptCompile Include="src\views\component.ts" />
+    <TypeScriptCompile Include="src\views\formEditor.ts" />
+    <TypeScriptCompile Include="src\views\formViewModel.ts" />
+    <TypeScriptCompile Include="src\views\header.ts" />
+    <TypeScriptCompile Include="src\views\itemViewModel.ts" />
+    <TypeScriptCompile Include="src\views\snippet-form.ts" />
+    <TypeScriptCompile Include="src\views\snippet.ts" />
+    <TypeScriptCompile Include="src\views\tab-item.ts" />
+    <TypeScriptCompile Include="src\views\tabs.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="doc\api.json" />
     <Content Include="doc\CHANGELOG.md" />
     <Content Include="README.md" />
-    <Content Include="src\views\psp\data\buttons.json" />
-    <Content Include="src\views\psp\data\common.json" />
-    <Content Include="src\views\psp\data\datetime.json" />
-    <Content Include="src\views\psp\data\default.json" />
-    <Content Include="src\views\psp\data\input.full.json" />
-    <Content Include="src\views\psp\data\input.json" />
-    <Content Include="src\views\psp\data\radio.json" />
-    <Content Include="src\views\psp\data\section.json" />
-    <Content Include="src\views\psp\data\select.json" />
-    <Content Include="src\views\psp\data\snippets.json" />
-    <Content Include="src\views\psp\data\tabs.json" />
-    <Content Include="src\views\psp\data\test.json" />
-    <Content Include="src\views\psp\data\text.json" />
+    <Content Include="src\views\data\buttons.json" />
+    <Content Include="src\views\data\common.json" />
+    <Content Include="src\views\data\datetime.json" />
+    <Content Include="src\views\data\default.json" />
+    <Content Include="src\views\data\input.full.json" />
+    <Content Include="src\views\data\input.json" />
+    <Content Include="src\views\data\radio.json" />
+    <Content Include="src\views\data\section.json" />
+    <Content Include="src\views\data\select.json" />
+    <Content Include="src\views\data\snippets.json" />
+    <Content Include="src\views\data\tabs.json" />
+    <Content Include="src\views\data\test.json" />
+    <Content Include="src\views\data\text.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\views\psp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
@@ -173,6 +163,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>amd</TypeScriptModuleKind>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
